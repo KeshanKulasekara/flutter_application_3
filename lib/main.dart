@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   }
 }
 class fineapp extends StatelessWidget{
-  final double buttonsize = 20.0;  // give the size for buttons 
+  final double buttonsize = 40.0;  // give the size for buttons 
 
   @override
   Widget build(BuildContext context){
@@ -58,35 +58,35 @@ class fineapp extends StatelessWidget{
             style: ElevatedButton.styleFrom(minimumSize: Size(300, 30)),
             ),
            ),
-           SizedBox(height: 35,),
+           SizedBox(height: buttonsize,),
            Center(
             child: ElevatedButton(onPressed: () {},
             child: Text("Fine-02",style: TextStyle(fontSize: 20,color: Colors.black),),
             style: ElevatedButton.styleFrom(minimumSize: Size(300, 30)),
             ),
             ),
-           SizedBox(height: 40,),
+           SizedBox(height: buttonsize,),
            Center(
             child: ElevatedButton(onPressed: () {},
             child: Text("Fine -03",style: TextStyle(fontSize: 20,color: Colors.black),),
             style: ElevatedButton.styleFrom(minimumSize: Size(300, 30)),
             ),
             ),
-            SizedBox(height: 45,),
+            SizedBox(height: buttonsize,),
            Center(
             child: ElevatedButton(onPressed: () {},
             child: Text("Fine -04",style: TextStyle(fontSize: 20,color: Colors.black),),
             style: ElevatedButton.styleFrom(minimumSize: Size(300, 30)),
             ),
             ),
-            SizedBox(height: 50,),
+            SizedBox(height: buttonsize,),
            Center(
             child: ElevatedButton(onPressed: () {},
             child: Text("Fine -05",style: TextStyle(fontSize: 20,color: Colors.black),),
             style: ElevatedButton.styleFrom(minimumSize: Size(300, 30)),
             ),
             ),
-            SizedBox(height: 55,),
+            SizedBox(height: buttonsize,),
            Center(
             child: ElevatedButton(onPressed: () {},
             child: Text("FILTER",style: TextStyle(fontSize: 30,color: Colors.black),),
