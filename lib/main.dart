@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
   }
 }
 class fineapp extends StatelessWidget{
+  final double buttonsize = 20.0;  // give the size for buttons 
 
   @override
   Widget build(BuildContext context){
